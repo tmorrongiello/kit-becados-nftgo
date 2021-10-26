@@ -55,6 +55,7 @@
 
   let slpWon = () => slpPoints = true;
   let slpLost = () => {
+    matchAdd = true
     dailyEnergy -= 1
     gameAdd();
   }
