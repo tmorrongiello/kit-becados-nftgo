@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&family=Gluten&family=Luckiest+Guy&family=Secular+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    @apply  bg-gradient-to-t from-gray-900 to-purple-900 
+    box-border 
+    mx-auto 
+    2xl:h-screen 
+    grid
+    2xl:grid-cols-5 2xl:grid-rows-4
+}
+
+.sect {
+  @apply 2xl:relative
+  py-8 md:py-0 
+  row-auto 
+  2xl:px-80 
+  gap-y-10 2xl:gap-y-80 
+  flex flex-col 
+  items-center justify-center 
+  2xl:grid 
+  2xl:grid-cols-5 2xl:grid-rows-3 
+  2xl:col-span-5 2xl:row-span-2 
+  2xl:flex-row
+}
+
+.main-opt {
+    @apply transition duration-200 ease-in-out 
+    hover:opacity-70 
+    shadow-inner 
+    bg-gradient-to-tl from-orange-600 to-yellow-500 
+    ring-8 ring-white 
+    rounded-full 
+    font-black
+    text-gray-200 
+    h-44 w-44 
+    px-16 py-16 
+    flex 
+    items-center justify-center 
+     
+
+}
