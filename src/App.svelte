@@ -100,7 +100,7 @@ const resetAll = () => {
 
 <div class="container pt-6 font-fredoka">
   <div class="place-items-center 2xl:col-span-5 mb-2">  <!-- Cabecera -->
-	 	<h1 class="font-black mt-2 text-7xl text-gray-200 tracking-wider text-center">Academia Axie<br /> NFT GO!</h1>
+	 	<h1 class="font-black mt-2 text-7xl text-gray-200 tracking-wider text-center" on:click={() => {mainScreen = true}}>Academia Axie<br /> NFT GO!</h1>
    	<h3 class="text-gray-200 text-4xl text-center underline">Kit para Becados</h3>
   </div>  <!-- Fin cabecera-->
   
