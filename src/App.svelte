@@ -61,7 +61,7 @@
    setTimeout(() => {
      matchAdd = false
    }, 1500);
-    
+    resetCalc();
     gameEnd = false
     slpPoints = false
 
@@ -76,10 +76,14 @@
   };
 
 //   Resetear a valores por defecto
-  const resetAll = () => {       
- 	  round = 1
+const resetCalc = () => {
+    round = 1
 	  curEnergy = 3
 	  curCards = 6
+}  
+
+const resetAll = () => {       
+    resetCalc()
 	  dailyEnergy = 20
 	  dailyCheck = false
 	  advCheck = false
