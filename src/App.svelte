@@ -54,7 +54,10 @@
   let points = [1, 3, 6, 9, 12, 15, 18];
 
   let slpWon = () => slpPoints = true;
-  let slpLost = () => dailyEnergy -= 1
+  let slpLost = () => {
+    dailyEnergy -= 1
+    gameAdd();
+  }
 
   const gameAdd = () => {
     
